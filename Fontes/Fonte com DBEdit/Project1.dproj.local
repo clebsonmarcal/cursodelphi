@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/07/29 16:38:16.000.807,=C:\Users\Clebson\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/21 18:15:49.000.205,=C:\Users\Clebson\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/21 18:17:17.000.532,C:\Users\Clebson\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Clebson\Desktop\CURSO CATOLICA\Unit1.dfm</Transaction>
+    <Transaction>2019/10/21 18:17:17.000.531,C:\Users\Clebson\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Clebson\Desktop\CURSO CATOLICA\Unit1.pas</Transaction>
+    <Transaction>2019/10/21 18:17:21.000.352,C:\Users\Clebson\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Clebson\Desktop\CURSO CATOLICA\Project1.dproj</Transaction>
+    <Transaction>2019/10/21 18:21:14.000.102,=C:\Users\Clebson\Desktop\CURSO CATOLICA\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

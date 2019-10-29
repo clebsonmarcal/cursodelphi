@@ -1,0 +1,136 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 238
+  ClientWidth = 621
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 16
+    Top = 8
+    Width = 67
+    Height = 23
+    Caption = 'C'#243'digo'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 16
+    Top = 69
+    Width = 55
+    Height = 23
+    Caption = 'Nome'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 16
+    Top = 131
+    Width = 109
+    Height = 23
+    Caption = 'Documento'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+  end
+  object edtcodigo: TEdit
+    Left = 131
+    Top = 8
+    Width = 121
+    Height = 31
+    TabStop = False
+    Color = clMenu
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object edtnome: TEdit
+    Left = 131
+    Top = 66
+    Width = 482
+    Height = 31
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object edtdocumento: TEdit
+    Left = 131
+    Top = 128
+    Width = 482
+    Height = 31
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Verdana'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object btngravar: TButton
+    Left = 56
+    Top = 184
+    Width = 113
+    Height = 38
+    Caption = 'Gravar'
+    TabOrder = 3
+    OnClick = btngravarClick
+  end
+  object btrexcluir: TButton
+    Left = 189
+    Top = 184
+    Width = 113
+    Height = 38
+    Caption = 'Excluir'
+    TabOrder = 4
+    OnClick = btrexcluirClick
+  end
+  object btnconsultar: TButton
+    Left = 322
+    Top = 184
+    Width = 113
+    Height = 38
+    Caption = 'Consultar'
+    TabOrder = 5
+  end
+  object btnsair: TButton
+    Left = 455
+    Top = 184
+    Width = 113
+    Height = 38
+    Caption = 'Sair'
+    TabOrder = 6
+    OnClick = btnsairClick
+  end
+  object DataSource1: TDataSource
+    DataSet = dm.FDQuery1
+    Left = 552
+    Top = 8
+  end
+end
